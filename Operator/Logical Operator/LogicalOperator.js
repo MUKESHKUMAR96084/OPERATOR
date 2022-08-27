@@ -1,0 +1,11 @@
+var a = true;
+var b = false;
+var result;
+result = a && b;
+console.log(result);
+result = a || b;
+console.log(result);
+result = (!(a&&b));
+console.log(result);
+result = (!(a||b));
+console.log(result);
